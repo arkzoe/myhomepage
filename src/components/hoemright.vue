@@ -175,7 +175,6 @@ export default {
 			const engineUrls = {
 				google: `https://www.google.com/search?q=${encodeURIComponent(query)}`,
 				bing: `https://www.bing.com/search?q=${encodeURIComponent(query)}`,
-				baidu: `https://www.baidu.com/s?wd=${encodeURIComponent(query)}`,
 				yandex: `https://yandex.com/search/?text=${encodeURIComponent(query)}`,
 				duckduckgo: `https://duckduckgo.com/?q=${encodeURIComponent(query)}`
 			};
